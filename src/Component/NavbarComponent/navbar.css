@@ -1,0 +1,15 @@
+.transparent-navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .solid-navbar {
+    background-color: #fff !important;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    width: 100%;
+    z-index: 1000;
+  }
+  
