@@ -9,15 +9,23 @@ import Gallery from "./pages/Gallery/Gallery";
 
 function App() {
   return (
-    <Router>
-      <NavbarComponent />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    
+     <div>
+          <NavbarComponent />
+
+          <Routes>
+     
+     <Route path="/" element={<Home />} />
+     <Route path="/about" element={<About />} />
+     <Route path="/Gallery" element={<Gallery />} />
+     <Route path="/Contact" element={<Contact />} />
+   </Routes>
+
+
+
+     </div>
+   
+    
     
   );
 }

@@ -1,28 +1,86 @@
 /* Hero Section */
 .hero-section {
-    background: url("/assets/header-bg.jpg") no-repeat center center/cover;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-  }
-  
-  .hero-content {
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  /* Main Content */
-  .content-section {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .content-section h2 {
-    color: #333;
-  }
-  
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.hero-content .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+/* Main Content */
+.content-section {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+/* Slideshow Section */
+.slideshow-container {
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 500px; /* Ensures images are visible */
+  object-fit: contain; /* Keeps image fully visible */
+  background-color: #f8f9fa; /* Adds a background in case of transparency */
+}
+
+/* Contact Us Form */
+.contact-section {
+  padding: 50px 10%;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section .form-label {
+  font-weight: bold;
+}
+
+.contact-section .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-section .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
